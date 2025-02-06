@@ -5,7 +5,7 @@ export default function ItemList({ menu }) {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:4000/menu/${menu._id}/items`)
+    axios.get(`https://dns-task-backend.onrender.com/menu/${menu._id}/items`)
       .then((res) => setItems(res.data))
       .catch((err) => console.error("Error fetching items", err));
   }, [menu]);

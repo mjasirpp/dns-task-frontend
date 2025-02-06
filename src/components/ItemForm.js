@@ -10,7 +10,7 @@ export default function ItemForm({ menuId, onItemAdded }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(`http://localhost:4000/menu/${menuId}/items`, { name, description, price });
+      await axios.post(`https://dns-task-backend.onrender.com/menu/${menuId}/items`, { name, description, price });
       alert("Item added successfully!");
       setName("");
       setDescription("");

@@ -5,7 +5,7 @@ export default function MenuList({ onMenuSelect }) {
   const [menus, setMenus] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/menu")
+    axios.get("https://dns-task-backend.onrender.com/menu")
       .then((res) => setMenus(res.data))
       .catch((err) => console.error("Error fetching menus", err));
   }, []);

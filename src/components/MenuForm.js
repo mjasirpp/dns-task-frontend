@@ -9,7 +9,7 @@ export default function MenuForm({ onMenuAdded }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:4000/menu", { name, description });
+      await axios.post("https://dns-task-backend.onrender.com/menu", { name, description });
       alert("Menu created successfully!");
       setName("");
       setDescription("");
