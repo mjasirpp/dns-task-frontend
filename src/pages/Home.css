@@ -1,0 +1,25 @@
+.home-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background: url("https://s3-alpha-sig.figma.com/img/aefd/7aa0/f81b6208cb3da0f5ecc0f0d109ca4bd0?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bLLizKry9U-p7vKvkEut~klCDMmXZFuqQrbNVC0mVQaUu9Qfh6bVHE2CWp9FPNOGpVF6Dg3ptt-1FmwPuj~aPODJQb7pd5lW4~SvKs2dNeFNSiDByoQo1WFDeP2Q2gfPtc2yiGh6lIHw-9iF1AKy3Sr6UB4vN~c0FsasSs1AEtdYolHAf5kR~GkViNtiLWPMy77QdXs5m9tBrMfQdaRpl2AWrnLAeM3vQ2Pn~8iLIjcqzeOh4OUGsSWTaFQ~WoVscBH6HSgJEBXMVhCac8pfdc7k6eckpQDHGQZcEyUSgAfmbcGEk-iTLSzxuiW3SOpkIi~b2FkEht8aK3Y6~wzazw__") top center/ 100% no-repeat;;
+  }
+
+p{
+    color: rgb(248, 248, 251);
+ }
+
+
+  @media (max-width: 768px) {
+    .home-container {
+      width: 393px;
+      height: 231px;
+    }
+  }
+  
